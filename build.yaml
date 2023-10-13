@@ -1,0 +1,7 @@
+builders:
+  repository_generator:
+    import: "package:apirepository/builder.dart"
+    builder_factories: ["repositoryModelBuilder"]
+    build_extensions: {".dart": [".repository.g.dart"]}
+    auto_apply: root_package
+    build_to: source
