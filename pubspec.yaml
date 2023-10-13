@@ -10,7 +10,7 @@ environment:
 dependencies:
   api_annotations:
     git:
-      url: https://gitlab+deploy-token-3534409:gLpGe7ZkbPRmG9iFfnot@gitlab.com/volvlabs1/api_annotations
+      url: https://github.com/volvlabs/api_annotations
       ref: main
   flutter:
     sdk: flutter
